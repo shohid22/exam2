@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1366px;
+    margin: auto;
+}
+.box{
+    display: flex;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav bar part start */
+
+
+nav{
+    background: #EEEDDE;
+}
+nav .logo-part{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 424px;
+}
+nav .button-part{
+    padding-top: 63px;
+}
+nav .button-part ul li{
+    color: #1E4E73;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+}
+nav .button-part ul {
+    display: flex;
+    column-gap: 100px;
+}
+
+
+
+
+/* nav bar part end */
+/* bannar-part start */
+select{
+   background: #EEEDDE;
+}
+/* bannar-part end */
